@@ -1,0 +1,6 @@
+transformers
+datasets
+sentencepiece
+sacrebleu
+wandb
+scikit-learn
