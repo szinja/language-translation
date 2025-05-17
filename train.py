@@ -9,6 +9,7 @@ from sklearn.model_selection import train_test_split
 import wandb
 import numpy as np
 import time
+import evaluate
 
 # Loading dataset
 def load_data(en_path, xh_path):
@@ -71,7 +72,7 @@ def main(args):
 
 
     # BLEU metric function
-    bleu = load_metric("sacrebleu")
+    bleu = evaluate.load("sacrebleu")
     def compute_metrics(eval_preds):
         preds, labels = eval_preds
         decoded_preds = tokenizer.batch_decode(preds, skip_special_tokens=True)
@@ -86,7 +87,8 @@ def main(args):
 
     training_args = Seq2SeqTrainingArguments(
         output_dir=args.output_dir,
-        evaluation_strategy="epoch",
+        eval_strategy="epoch",
+        learning_rate=args.learning_rate,
         logging_strategy="steps",
         logging_steps=500, 
         save_total_limit=2,
@@ -125,6 +127,7 @@ if __name__ == "__main__":
     parser.add_argument("--model_name", type=str, default="Helsinki-NLP/opus-mt-en-xh")
     parser.add_argument("--output_dir", type=str, default="./en-xh-model")
     parser.add_argument("--epochs", type=int, default=3)
+    parser.add_argument("--learning_rate", type=float, default=2e-5)
     args = parser.parse_args()
 
     main(args)
