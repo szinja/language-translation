@@ -19,7 +19,8 @@ def load_data(en_path, xh_path):
     return [(en, xh) for en, xh in zip(en_lines, xh_lines) if en and xh]
 
 def to_dataset(pairs):
-    return Dataset.from_dict({"translation": [{"en": e, "xh": x} for e, x in pairs]})
+    en, xh = zip(*pairs)    # flatten to "{'en': 'This is English.', 'xh': 'Lo sisiXhosa.'}"
+    return Dataset.from_dict({"en": en, "xh": xh})
 
 def preprocess(examples, tokenizer):
     model_inputs = tokenizer(examples["en"], truncation=True, padding="max_length", max_length=128)
@@ -65,8 +66,9 @@ def main(args):
     tokenizer = MarianTokenizer.from_pretrained(args.model_name)
     model = MarianMTModel.from_pretrained(args.model_name)
 
-    tokenized_train = train_ds.map(lambda x: preprocess(x, tokenizer), batched=True)
-    tokenized_val = val_ds.map(lambda x: preprocess(x, tokenizer), batched=True)
+    tokenized_train = train_ds.map(lambda x: preprocess(x['translation'], tokenizer), batched=True)
+    tokenized_val = val_ds.map(lambda x: preprocess(x['translation'], tokenizer), batched=True)
+
 
     # BLEU metric function
     bleu = load_metric("sacrebleu")
