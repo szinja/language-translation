@@ -1,6 +1,6 @@
 # English–isiXhosa Neural Machine Translation
 
-This project implements a Transformer-based Neural Machine Translation (NMT) model to translate from English to isiXhosa using the OPUS SADiLaR bilingual dataset. The model is fine-tuned from `Helsinki-NLP/opus-mt-en-xh` using the Hugging Face Transformers library and trained in PyTorch.
+This project implements a Transformer-based Neural Machine Translation (NMT) model to translate from English to isiXhosa using the [OPUS SADiLaR bilingual dataset](https://hdl.handle.net/20.500.12185/525). The model is fine-tuned from `Helsinki-NLP/opus-mt-en-xh` using the Hugging Face Transformers library and trained in PyTorch.
 
 ---
 
@@ -33,7 +33,5 @@ A Streamlit interface is provided to demonstrate live English-to-isiXhosa transl
 streamlit run streamlit_app.py
 ```
 
-Author: Sisipho Zinja
+Author: Sisipho Zinja <usisipho.zinja@gmail.com> <br>
 [WandB Dashboard](https://wandb.ai/szinja-university-of-rochester/huggingface)
-
-Based on Hugging Face Transformers and Bilingual English-isiXhosa OPUS data by [SADiLaR](https://hdl.handle.net/20.500.12185/525).
