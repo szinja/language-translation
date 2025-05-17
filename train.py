@@ -75,7 +75,6 @@ def main(args):
     tokenized_train = train_ds.map(lambda x: preprocess(x, tokenizer), batched=True)
     tokenized_val = val_ds.map(lambda x: preprocess(x, tokenizer), batched=True)
 
-
     # BLEU metric function
     bleu = evaluate.load("sacrebleu")
     def compute_metrics(eval_preds):
