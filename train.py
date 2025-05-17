@@ -1,5 +1,5 @@
 import argparse
-from datasets import load_metric, Dataset
+from datasets import Dataset
 from transformers import (
     MarianTokenizer, MarianMTModel,
     Seq2SeqTrainer, Seq2SeqTrainingArguments,
@@ -81,13 +81,18 @@ def main(args):
     def compute_metrics(eval_preds):
         preds, labels = eval_preds
         decoded_preds = tokenizer.batch_decode(preds, skip_special_tokens=True)
+        decoded_preds = [pred.strip() for pred in decoded_preds]
 
-        # We can't decode -100 labels so we replace them
+        # Decode -100 labels replacing with pad_token_id
         labels = np.where(labels != -100, tokenizer.pad_token_id, labels)
         decoded_labels = tokenizer.batch_decode(labels, skip_special_tokens=True)
+        decoded_labels = [label.strip() for label in decoded_labels]
+        
+        # Format references as required by sacrebleu 'List[List[str]]'
+        references = [[label] for label in decoded_labels]
 
         # Calculate BLEU score
-        bleu_result = bleu.compute(predictions=decoded_preds, references=[[l] for l in decoded_labels])
+        bleu_result = bleu.compute(predictions=decoded_preds, references=references)
         return {"bleu": bleu_result["score"]}
 
     training_args = Seq2SeqTrainingArguments(
