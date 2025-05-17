@@ -1,0 +1,400 @@
+EN: 1 . Base : In a bowl , mix together crumbs , sugar and margarine .
+REF: 1 . I-Base : Xubela esityeni iswekile , iicrumbs nemajarini .
+HYP: 1 . Baleka : Xuba iicurmubs , iswekile nemajarini esityeni .
+
+EN: However , Puseletso warns that children still need a mother's love .
+REF: Kodwa ke , uPuseletso ulumkisa ngokuba abantwana bayalufuna uthando lukanina .
+HYP: Nangona kunjalo uPusettso ulumkisa ngelithi abantwana badinga uthando lukamama .
+
+EN: no fingerprints are required from children under the age of 16 years .
+REF: abantwana abaneminyaka yobudala engaphantsi kwe 16 abayinyatheliswa iminwe .
+HYP: Akukho mfuneko yeeminwe zabantwana abangaphantsi kweminyaka eli-16 .
+
+EN: He then crashed a car on the freeway after falling asleep at the wheel and was sent back to South Africa .
+REF: Nalapho wagxothwa wabuyela kweli emva kokwenza ingozi yemoto emva kokulala eqhuba .
+HYP: Emva kokulala evilini watshayisa imoto waza wabuyela eMzantsi Afrika .
+
+EN: Certain commonly used medicines such as aspirin and other anti-inflammatory tablets may trigger asthma .
+REF: Amayeza amaninzi asetyenziswa kakhulu afana ne-aspirin kwakunye iipilisi ezithintela ukosuleleka zongangunobangela wesi sifo .
+HYP: Amayeza athile asetyenziswa kakhulu afana nee-aspirin nezinye iipilisi ezilwa nokukrala zinokubangela umbefu .
+
+EN: Dip in a saucer of caster sugar or jelly powder .
+REF: Yithi nkxu isosa yecaster sugar okanye ijelly powder .
+HYP: Ntyontyisa icasper sugar okanye ijelly powder .
+
+EN: * a member of the South African National Defence Force ( there is a separate fund )
+REF: * ulilungu loMkhosi WezoKhuselo WomZantsi Afrika(kukho ingxowa-mali eyahlukileyo apha )
+HYP: * ilungu loMkhosi woKhuselo woMzantsi Afrika ( kukho ingxowa-mali eyahlukileyo )
+
+EN: The correct amount of bee hives also need to be placed in the sunflower lands .
+REF: Kukwabalulekile ukubeka inani elichanekileyo lezindlu zeenyosi emasimini kajongilanga .
+HYP: Isixa esichanekileyo seenyosi naso sifanele ukubekwa emasimini kajongilanga .
+
+EN: * Follow up your complaint after a reasonable length of time if you haven't received a response .
+REF: * Landela izikhalazo zakho emva kwexesha elingephi ukuba awukafumani kuphendulwa .
+HYP: * Landela isikhalazo sakho emva kwethuba elide xa ungafumananga mpendulo .
+
+EN: If you are very close then you would be betraying her if you didn't tell her .
+REF: Ukuba ningabahlobo abasenyongweni , uya kuba uyamngcatsha xa ungamxeleli .
+HYP: Xa sele ukufutshane uya kungcatsha xa ungamxelelanga .
+
+EN: Soybean rust is also referred to as Asian soybean rust and is caused by the pathogen know by its Latin name as Phakopsora pachyrhiza .
+REF: Irusi yeembotyi zesoya ikwabizwa ngokuthi yirusi yase-Eshiya yeembotyi zesoya kwaye ibangelwa yintsholongwane eyaziwa ngegama layo lesiLatini elithi Phakopsora pachyrhiza .
+HYP: Irusi yeembotyi zesoya ikwabizwa ngokuba yirusi yesoya yaseAsia kwaye ibangelwa yintsholongwane eyaziwa ngegama layo lesiLatin ngokuba yiPhakachora pachyrhiza .
+
+EN: Jimi Matthews , who runs the SABC Sports department , says recruiting more women presenters is a reflection of the strong female interest in sport on TV .
+REF: UJimi Matthews oyintloko yesebe lemidlalo kwaSABC uthi ukuqesha kwabo amabhinqa angabasasazi bemidlalo kubonisa ukwanda kwamabhinqa athand ' imidlalo eboniswa kwiTV .
+HYP: UJimi Matthews , olilungu leSebe lezeMidlalo le-SABC uthi ukugaya abasasazi bamabhinqa abaninzi kubonisa umdla wamakhosikazi kwezemidlalo kwiTV . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+EN: But the one thing that should not be allowed to happen is neighbourhood watches resorting to vigilantism .
+REF: Kodwa inye into efanele ukuba ingavunyelwa , kukuba abantu bathabathele umthetho ezandleni zabo .
+HYP: Kodwa enye into engamele kuvunyelwa yenzeke yiwotshi yabamelwane ebhenela ekuzimiseleni . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+EN: What principle of Batho Pele does this relate to ?
+REF: Ubhekisa kuwuphi umthetho-siseko weBatho Pele lo mboniso ?
+HYP: Nguwuphi umgaqo-siseko weBatho Pele onxulumene nawo ?
+
+EN: Reporting to speakers office
+REF: Ukungenisa ingxelo kwiofisi kaSomlomo
+HYP: Ukunikezela ingxelo kwi-ofisi yezithethi
+
+EN: It's hard to imagine this is the same disillusioned person who needed nearly two years out of the limelight .
+REF: Ubengabonakali ukuba ukhe wathi shwaka emculweni iminyak ' emibini .
+HYP: Kunzima ukucing ' ukuba lo ngumntu ophoxweyo obesoloko efun ' ithuba eliphantse libe yiminyak ' emibini ngaphambi kokuba abonwe . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+EN: I fell in love with a guy in 2001 and everything was going well .
+REF: Ndathandana nale ndoda ngo-2001 yaye yonk ' into yayihamba kakuhle .
+HYP: Ndathandana nendoda ngo-2001 kwaye yonke into yayihamba kakuhle .
+
+EN: As we celebrate Madiba's release today , we recommit ourselves to reconciliation , national unity , non-racialism and building a better future together as South Africans , black and white .
+REF: Njengoko sibhiyozela ukukhululwa kukaMadiba namhlanje , sizibophelela ngokutsha kuxolelwano , umanyano lwesizwe , ukungabi nabuhlanga nokwakha ikamva elingcono njengabemi boMzantsi Afrika , abamnyama nabamhlophe .
+HYP: Njengoko sibhiyozela ukukhululwa kukaMadiba namhlanje , siphinde sazibophelela kuxolelwaniso , umanyano lwesizwe , ukungabi nabuhlanga nokwakha ikamva elingcono kunye njengabantu baseMzantsi Afrika , abamnyama nabamhlophe .
+
+EN: When I confronted Dineo about him she gave me a pathetic story about him being her basketball trainer .
+REF: Ndithe xa ndimbuza uDineo ngalo mfo , wathi ngumqeqeshi wakhe webasketball .
+HYP: Xa ndadibana noDineo , wandibalisela ibali elibi lokuba ungumqeqeshi wakhe webhola yomnyazi .
+
+EN: If any information is needed on the exact requirements for a specific animal or animal product , specimen copies of the Veterinary Import Permit and the Veterinary Health Certificate can be obtained from the Permit Office .
+REF: Ukuba kukho inkcazelo edingekayo malunga neemfuneko nqo zesilwanyana esithile okanye imveliso ethile yesilwanyana , iikopi zokubonisa zePemethe yokuNgenisa iZilwanyana kweli kunye nezeSatifiketi seMpilo yeZilwanyana , zingafumaneka kwi-Ofisi yeePemethe .
+HYP: Ukuba naluphi na ulwazi luyimfuneko kwiimfuneko ezichanekileyo zemveliso ethile yezilwanyana okanye eyezilwanyana , iikopi ezivelisiweyo ze-Veterinary Interlines kunye ne-Veterinary Health Certificate zingafunyanwa kwi-Ofisi yamaphepha .
+
+EN: If I stop taking my pills I behave like a mad person
+REF: Ukuba ndiyayeka ukusela iipilisi zam ndisuke ndifane negeza
+HYP: Xa ndiyeka ukusela iipilisi zam ndiziphatha njengomntu ophambeneyo
+
+EN: Diesel fuel has a much higher flash point than petrol , but engines designed to use it run at very high compression ratios .
+REF: Idizile inamandla ngaphezu kwepetroli kodwa iinjini ezilungiselelwe idizile zinoxinzelelo olumandla .
+HYP: Ipetroli yedizili inesidanga esikhulu kunepetroli , kodwa i-injini eyenzelwe ukuyisebenzisa ibaleka ngesantya esiphezulu . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+EN: Secure with clips .
+REF: Zibambe ngeeklipha .
+HYP: Lugcine ngeklinikhi .
+
+EN: During harvest time , these machines work hard and become covered in dust , dirt and grime , so they need to be cleaned properly , then inspected to see what things may need repair .
+REF: Ngexesha lokuvuna aba matshini basebenza nzima baze bagqunywe luthuli , kukungcola nayigrisi ngoko ke kufuneka becocwe kakuhle kwaye bahlolwe ukuze kufunyaniswe ukuba zeziphi iindawo ezidinga ukukhandwa .
+HYP: Ngexesha lokuvuna , aba matshini basebenza nzima baze bagqunywe nothuli , ukungcola nokungcola , ngoko ke kufuneka bacocwe kakuhle , baze bahlolwe ukuze babone ukuba zeziphi izinto ezinokudinga ukulungiswa .
+
+EN: * Promote arts , culture and heritage festivals .
+REF: * Kukuphuhlisa ubugcisa , inkcubeko kwakunye neminyhadala yelifa lemvelo .
+HYP: * ukukhuthaza ubugcisa , inkcubeko nemibhiyozo yelifa lemveli .
+
+EN: If South Africa is to have a good maize harvest , the prices are likely to fall .
+REF: Ukuba uMzantsi Afrika uza kufumana isivuno esihle sombona , amaxabiso aza kuthanda ukwehla .
+HYP: Ukuba uMzantsi Afrika uza kufumana isivuno esihle sombona , amaxabiso angawa .
+
+EN: Small businesses
+REF: Amashishini amancinane
+HYP: Amashishini amancinci
+
+EN: I would also like to take this opportunity to salute President Nelson Mandela , one of the pre-eminent founding fathers of our democracy , who will mark his 90th birthday on 18 July this year .
+REF: Ndithanda ukuphinda ndithabathe elithuba ukukhahlela uMongameli Nelson Mandela , omnye wotata ababalaseleyo abasungulayo idemokrasi yethu , ozawuthi afikelele iminyaka enga-90 ezelwe ngomhla wa-18 Julayi kulonyaka .
+HYP: Ndinqwenela nokulithatha eli thuba ukubulisa uMongameli uNelson Mandela , ongomnye wootata abaseka idemokhrasi yethu , abaya kuphawula umhla wakhe wama-90 ngomhla we-18 kuJulayi kulo nyaka .
+
+EN: Thank you very much Alan .
+REF: Siyabulela kakhulu Alan .
+HYP: Enkosi kakhulu nguAlan .
+
+EN: He had to share grazing rights with other people from the township , which led to a lot of conflict regarding overgrazing and theft .
+REF: Waqala ngokwabelana nabanye abantu baselokishini ngamalungelo amadlelo , meko leyo eyayibangela ungquzulwano oluninzi malunga nokutyisa impahla ngokubhuqisa kunye nobusela .
+HYP: Kwafuneka abelane nabanye abantu baselokishini ngamalungelo okutyisa ukutya , nto leyo yakhokelela kungquzulwano oluninzi malunga nokutyisa ngokugqithisileyo nobusela .
+
+EN: The database would assist in identifying , nurturing and developing young talent to become tomorrow's musical icons and ambassadors .
+REF: Uvimba wolwazi uza kunceda ekuchongeni , ekuhlumiseni nasekuphuhliseni italente entsha ukuba ibe ziindwalutho zomculo noonozakuzaku bexa elizayo .
+HYP: Eli phetshana liza kunceda ekuchongeni , ekukhuliseni nasekuphuhliseni italente entsha ukuze ibe yimifanekiso eqingqiweyo yomculo yangomso noonozakuzaku .
+
+EN: This is how some children with this learning disability see normal writing .
+REF: Amagama alula uyawagqwetha umzekelo elithi RAT liyajika libe nguTAR .
+HYP: Le yindlela abanye abantwana abanengxaki yokungakwazi ukufunda abayibona ngayo indlela eqhelekileyo yokubhala . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+EN: Row crops can be grown only on slopes less than 10% .
+REF: Izityalo ezihamba ngokwemiqolo zinokulinywa emathambekeni anganeno kwe-10% .
+HYP: Izityalo zemiqolo zingalinywa emathambekeni angaphantsi kwe-10% kuphela .
+
+EN: We have a child and I last saw them in 1990 .
+REF: Sinomntwana yaye ndabagqibela ngo-1990 .
+HYP: Sinomntwana kwaye ndagqibela ukusibona ngo-1990 .
+
+EN: Most Municipal Courts are housed within the Magistrates ' Court in that area .
+REF: Uninzi lweeNkundla zooMaspala zikwiiNkundla zooMantyi kwingingqi nganye .
+HYP: Inkoliso yeeNkundla zooMaspala zigcinwe kwiNkundla kaMantyi kuloo mmandla .
+
+EN: This affidavit , by the next of kin of a deceased black person who did not leave a valid will , must state that the estate has not been reported to another Master or another service point .
+REF: Le ngxelo ibhaliweyo nefungelweyo , eyenziwa sisizalwane somntu omnyama obhubhileyo ongashiyanga i-will esebenzisekayo , kufuneka ichaze ukuba ilifa alixelwanga komnye uMphathi oyiNqununu okanye kwelinye iziko leenkonzo zoMphathi oyiNqununu
+HYP: Esi sizalwane somntu omnyama ongasekhoyo ongazange awushiye umnqweno osemthethweni , kufuneka sichaze ukuba eli lizwe alichazwanga kwenye iMaster okanye kwenye indawo yeenkonzo .
+
+EN: or in public or economically significant domains .
+REF: ezibalulekileyo ngokoqoqosho .
+HYP: okanye kwimibandela ebalulekileyo yoluntu okanye kwezoqoqosho .
+
+EN: Computer printout : R6 per printout
+REF: Ukukhutshwa kwamaphepha ngekhompiyutha : R6 iphepha ngalinye elikhutshiweyo
+HYP: Ukushicilela ikhompyutha : R6 ngephepha ngalinye
+
+EN: Visually : Your baby will now be able to see very small objects ( even a crumb on a carpet ) , and understand the difference between " up , " " down , " " inside " and " outside . "
+REF: Ukubona : Usana lwakho ngoku lukwazi ukubona izinto ezincincane ( neemvuthuluka zesonka eziphantsi ) , kwaye luqonde umahluko phakathi " kwaphezulu , " " naphansti. "
+HYP: Enyanisweni : Ngoku usana lwakho luya kukwazi ukubona izinto ezincinane kakhulu ( nkqu nomqukuqelo osekhaphethini ) , luze luqonde umahluko phakathi " kokuphakama , " " phantsi , " ngaphakathi " nangaphandle " .
+
+EN: Anyone can be successful provided they identify their goals in life and move towards them .
+REF: Nabani na angaphumelela xa nje eneenjongo azimisele ukuzifezekisa ebomini .
+HYP: Nabani na angaphumelela xa efumanisa iinjongo zakhe ebomini aze aqhubele phambili kuzo .
+
+EN: It's not always easy to know what turns your partner on , but one way of finding out is by communicating .
+REF: Kunzima ukwazi into evusa inkanuko yeqabane lakho , kodwa ungayazi ngokuthetha nalo .
+HYP: Akusoloko kulula ukwazi ukuba iqabane lakho lincedwa yintoni , kodwa enye indlela yokufumanisa kukunxibelelana .
+
+EN: Ward committees were established nearly four years ago and it is crucial that the experience of longer serving ward committee members is carried over into capacity-building strategies .
+REF: Iikomiti zeewadi zasekwa phantse kwiminyaka emine edlulileyo kwaye kubalulekile ukuba amava amalungu eekomiti zeewadi enkonzo ende adluliselwe kwizicwangciso-buqili zokwakhiwa kwezakhono .
+HYP: Iikomiti zeewadi zasekwa phantse kwiminyaka emine edlulileyo kwaye kubalulekile ukuba amava amalungu eekomiti zeewadi amade abe zizicwangciso-buqili zokwakhiwa kwezakhono .
+
+EN: * dishonesty or improper dealings with respect to public money
+REF: * ukungathembakali okanye ukusebenza ngendlela engamkelekanga ngeemali zoluntu
+HYP: * Ukungathembeki okanye iinkqubano ezingafanelekanga malunga nemali kawonke-wonke
+
+EN: Health : Give yourself daily pep talks to restore your enthusiasm and vitality .
+REF: Impilo : Zikhuthaze ukuvuselela ukomelela nomdla wakho .
+HYP: Impilo : Zinike iintetho zepreping yonke imihla ukuze uvuselele uthakazelelo namandla akho . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+EN: For a more dramatic effect , make the line a little thicker , but not too thick , or you'll end up looking like a clown !
+REF: Ungawenzi uqaqambe kakhulu umgca kuba ungayintlekisa !
+HYP: Xa usenza into entle , yenza umgca ujiye kancinci , kodwa ungatyebanga kakhulu , okanye ugqibele ngokubukeka njengomdlalo ! ! . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+EN: What do we need to rearrange to make it happen ?
+REF: Yintoni ekufuneka siyilungisile kwakhona ukwenza izinto zenzeke ?
+HYP: Yintoni ekufuneka siyiqwalasele ukuze yenzeke ?
+
+EN: FACT : The Golden Toad of Central America is thought to be the first species to become extinct because of climate change .
+REF: INYANISO : IGolden Toad of Central America yinto yokuqala ekucingelwa ukuba yatshabalala ngenxa yokutshintsha kwemozulu .
+HYP: INYANISO : IGolden Toad of Central America kuthiwa luhlobo lokuqala lokutshabalala ngenxa yenguquko yemozulu .
+
+EN: Where an organ or institution of the provincial or local government uses signage and directions to identify any of its offices or facilities , such signage and directions must be in the three official languages of the Western Cape .
+REF: Apho iqumrhu okanye iziko likarhulumente wephondo okanye weengingqi zisebizisa iibhodi ukwalatha ii-ofisi okanye iindawo zalo ezenza izinto ezithile , ezo bhodi zalathayo mazibhalwe ngeelwimi ezintathu zaseburhulumenteni zaseNtshona Koloni .
+HYP: Apho iziko okanye iziko likarhulumente wephondo okanye wengingqi lisebenzisa usayino nemiyalelo yokuchonga naziphi na ii-ofisi okanye izibonelelo zalo , loo ngcaciso nemiyalelo kufuneka ibe ngeelwimi ezintathu zaseburhulumenteni zaseNtshona Koloni .
+
+EN: However , he warns that this may not be a good long-term solution as it could develop a culture of dependency .
+REF: Kodwa ke , uyalumkisa ukuba akuyondlela intle xa ulungiselela ixesha elide kuba ungazibona sele uxhomekeke kuyo .
+HYP: Nangona kunjalo , ulumkisa ngelithi oku kusenokungabi sisisombululo sexesha elide njengoko kunokuphuhlisa inkcubeko yokuxhomekeka .
+
+EN: As the time for giving birth nears , you'll notice baby starts moving less .
+REF: Usana alushukumi kakhulu xa sekukufutshane ubeleke .
+HYP: Xa sele lisondele ixesha lokubeleka , uya kufumanisa ukuba usana luhamba kancinane .
+
+EN: THIS CHAPTER EXPLAINS THE ROLE OF WARD COMMITTEES and other members of the community in community-based planning .
+REF: ESI SAHLUKO SICHAZA INDIMA YEEKOMITI ZEWADI namanye amalungu esicwangciso esisekwe kubahlali .
+HYP: ESI SIGANEKO SIQATSHELWE EKUNENE KWEEKOMITI YEWADI namanye amalungu oluntu kwisicwangciso esisekwe kubahlali .
+
+EN: Attention to detail is essential from pre-plant right to harvest and management attention is necessary on a daily basis .
+REF: Kubalulekile ukuzihoya izinto ezingathi zincinane ukususela kwibanga eliphambi kokutyala ukuya ekuvuneni kwaye kuyimfuneko ukwenza ulawulo olunengqalelo malwenziwe yonke imihla .
+HYP: Ukuqwalasela iinkcukacha kubalulekile ukusuka kwilungelo lokutyala laphambi kokutyala ukuya ekuvuneni nasekuphathweni kolawulo kuyimfuneko yonke imihla .
+
+EN: Once you have the protection order , if your abuser breaches ( breaks the conditions of ) a protection order , then that is a crime and he can be charged with the crime of contempt of court ( even if the breaching act is not ordinarily a crime , for example , controlling behaviour ) .
+REF: Xa sele unawo umyalelo wokhuseleko , ukuba umntu okuphatha gadalala uye wayophula imiqathango yomyalelo wokhuseleko , oko lulwaphulo-mthetho kwaye angamangalelwa ngokwenza ulwaphulo-mthetho lokudela inkundla ( nokuba isenzo solwaphulo lwemiqathango silulwaphulo-mthetho , umzekelo , indlela yokulawula ) .
+HYP: Wakuba unawo umyalelo wokhuseleko , ukuba umxhaphazi uthe waphule ( waphule imiqathango yokhuseleko ) , oko ke kululwaphulo-mthetho kwaye angabekwa ityala lolwaphulo-mthetho lwenkundla ( nokuba isenzo solwaphulo-mthetho asilolwaphulo-mthetho ngokwesiqhelo , umzekelo , ukulawula ukuziphatha ) .
+
+EN: It is not easy and there are a number of prerequisites to being successful .
+REF: Akululanga kwaye kukho izinto eziliqela ezifunekayo phambi kokufumaneka kwempumelelo .
+HYP: Akululanga kwaye zininzi izinto eziyimfuneko ukuze uphumelele .
+
+EN: There are plans to turn these caves into a tourist attraction .
+REF: Kucetywa ukuba le miqolomba ibeyeyokutsala abakhenkethi .
+HYP: Kukho izicwangciso zokujika le miqolomba ibe nomtsalane kubakhenkethi .
+
+EN: The following study groups have been established and serviced throughout the year :
+REF: Amaqela ofundo-nzulu alandelayo athe asekwa aza anikwa iinkonzo ebudeni bonyaka :
+HYP: Amaqela ofundo-nzulu alandelayo amiselwe kwaye anikwa inkonzo unyaka wonke :
+
+EN: One should also assess the implements that will be performing the task to make sure that all equipment is configured correctly .
+REF: Umntu ufanele ukuhlalutya nezixhobo zokusebenza eziya kwenza umsebenzi ukuqinisekisa ukuba zonke izixhobo zimi ngendlela echanekileyo .
+HYP: Kwakhona umntu kufuneka ahlole izixhobo eziya kuwenza lo msebenzi ukuqinisekisa ukuba zonke izixhobo zimiselwa ngokuchanekileyo .
+
+EN: Apart from being in bad taste , the interviewer may believe that you're a difficult person to get on with .
+REF: Unokukuva kakubi umntu othetha naye aphinde acinge ukuba ungumntu ongevaniyo nabantu .
+HYP: Ngaphandle kokungathandeki kakuhle , udliwano-ndlebe usenokukholelwa ekubeni ungumntu ongakwaziyo ukuqhubeka nobomi . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+EN: Cost : R30 a person . ( Includes dinner and gifts .
+REF: Amangeno : R30 umntu . ( Kuquka nokutya nezipho .
+HYP: Ixabiso : R30 umntu . ( Liquka isidlo nezipho .
+
+EN: Flat silver pumps ( R160 ) , Rage .
+REF: Izihlangu ezisilivere ( R160 ) , Rage .
+HYP: Iimpompo ezithe nca ( R160 ) , Rage .
+
+EN: Other soil quality indicators affecting the selected indicator
+REF: Ezinye izalathisi zomgangatho womhlaba ezichaphazela isalathisi esikhethiweyo
+HYP: Ezinye izalathisi zomgangatho womhlaba ezichaphazela isalathiso esikhethiweyo
+
+EN: * You must have a registered company
+REF: * Kufuneka ube nenkampani ebhalisiweyo
+HYP: * Kufuneka ubenenkampani ebhalisiweyo
+
+EN: 1 / 2 cup ( 125ml ) strawberry or apricot jam icing sugar to dust
+REF: 1 / 2 sekomityi ( 125ml ) yestrawberry jam okanye iapricot jam i-icing sugar yokufafaza
+HYP: 1 / 2 sekomityi ( 125ml ) yestrawberry okanye i-apilot jam ye-icing sugar
+
+EN: One culinary skill I am interested in learning is - how to bake .
+REF: Ndinomdla wokufunda - ukubhaka .
+HYP: Enye yezakhono zokufunda ndinomdla wokufunda - indlela yokubhaka .
+
+EN: The meeting lead or chair's name .
+REF: Igama lenkokheli okanye usihlalo wentlanganiso .
+HYP: Isikhokelo sentlanganiso okanye igama lesihlalo .
+
+EN: " What I remember most about her was the way she fed us soft porridge , " says Manaka , seen here showing us how the old lady would first pour soft porridge on to her palm .
+REF: " Eyona nto ndiyikhumbulayo ngaye yidlela awayesityisa ngayo isidudu , " utsho uManaka , apha simbona ebonisa indlela elixhegokazi elalisenza ngayo liqale ligalele isidudu esandleni .
+HYP: " Eyona nto ndiyikhumbulayo ngaye yindlela awasinika ngayo isidududu esithambileyo , " utsho uManaka .
+
+EN: Section 1 : Integrated Development Planning
+REF: Icandelo 1 : Isicwangciso Sophuhliso Esimanyanisiweyo
+HYP: Icandelo 1 : Isicwangciso Sophuhliso Esimanyanisiweyo
+
+EN: And on the other hand , if you are pulling an implement that is too large , you will damage the tractor and not do a proper job .
+REF: Kanti kwelinye icala , ukuba utsala isixhono esikhulu kakhulu , uy kuyonakalisa itrektara kwaye akwusayi kuba mhle umsebenzi wakho .
+HYP: Kanti kwelinye icala , ukuba utsala isixhobo esikhulu kakhulu , uya konakalisa itrektara ungenzi msebenzi ufanelekileyo .
+
+EN: RUST : Run a magnet around the bodywork .
+REF: IRASTI : Hambisa isitsalane ( imagnet ) emzimbeni wemoto .
+HYP: IRURT : Yenz ' itophu ejikeleze umzimba wakho . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+EN: ( a ) use any one of the three official languages of the Western Cape in his or her communication with any institution of the provincial or local government , and
+REF: ukusebenzisa naluphi kwezi lwimi zintathu zaseburhulumenteni kunxibelelwano lwalo naliphi iziko lePhondo okanye uRhulumente wengingqi , ze
+HYP: ( a ) asebenzise naluphi na olunye lweelwimi ezintathu ezisemthethweni zaseNtshona Koloni kunxibelelwano lwakhe nalo naliphi na iziko likarhulumente wephondo okanye wengingqi , ze
+
+EN: Bad signs
+REF: Iimpawu ezinobungozi
+HYP: Iimpawu ezimbi
+
+EN: Moses Saul , who was last seen in Newcastle .
+REF: UMoses Saul owagqityelwa eNewcastle uyafunwa .
+HYP: NguMoses Saul owagqityelwa eNewcastle .
+
+EN: How to identify birds
+REF: Indlela yokubona iintaka
+HYP: Indlela yokubona iintaka
+
+EN: 29 December 2006
+REF: 29 Disemba 2006
+HYP: 29 December 2006
+
+EN: As Koos is concerned about the profitability of grain production on the lower potential soils in the Senekal district , he wants to increase his contracting business .
+REF: Njengoko uKoos exhalatyiswa bubukho benzuzo malunga nemveliso yezityalo eziziinkozo kwimihlaba enesakhono esiphantsi kwingingqi yaseSenekal , ufuna ukwandisa ishishini lakhe lobhambathiso .
+HYP: Njengoko uKoos exhalabile ngenzuzo yemveliso yokutya okuziinkozo kwimihlaba enganeno kwisithili saseSenekal , ufuna ukwandisa ishishini lakhe lobhambathiso .
+
+EN: ( c ) to recommend the establishment or recognition , in accordance with national legislation , of a cultural or other council or councils for a community or communities in South Africa .
+REF: ( c ) nokwenza ingcebiso malunga nokusekwa , ngokungqinelana nomthetho wesizwe , kwebhunga lezamasiko nezithethe , okanye elinye ibhunga okanye amanye amabhunga eqela loluntu okanye amaqela oluntu eMzantsi Afrika .
+HYP: ( c ) lokucebisa ukusekwa okanye ukuthathelwa ingqalelo , ngokungqinelana nomthetho wesizwe , webhunga lenkcubeko okanye elinye ibhunga okanye amanye amabhunga oluntu okanye abahlali baseMzantsi Afrika .
+
+EN: Traditional tillage followed , where ploughs are used to break and turn the soil .
+REF: Emva koko kulandele ukulima kwesiqhelo , apho amakhuba ayesetyenziselwa ukuphethula umhlaba .
+HYP: Emva koko kulandela ukulima kwesiqhelo , apho amakhuba asetyenziselwa ukuqhekeza nokuguqula umhlaba .
+
+EN: On investment promotion , government has established InvestSA , an investment one-stop shop nationally and will open provincial centres in KwaZulu-Natal , Gauteng and the Western Cape .
+REF: Kumba wokukhuthazwa kotyalo-mali , urhulumente usungule amaziko e-InvestSA , amaziko ezotyalo-mali anako konke , kwisizwe siphela , kwaye i-InvestSA iza kuvula amaziko amaphondo KwaZulu-Natal , eGauteng naseNtshona Koloni .
+HYP: Kunyuselo lotyalo-mali , urhulumente usungule i-InvelisoSA , ivenkile enye yotyalo-mali , kwaye iza kuvula amaziko ephondo KwaZulu-Natal , eGauteng naseNtshona Koloni .
+
+EN: A culturally , religiously , socially or ethnically varied group of people living in a particular area under the governance of the same political authority .
+REF: Iqela labantu abahluke ngokwenkcubeko , ngokwenkolo , ngokwentlalo okanye ngokobuhlanga , abahlala kwindawo ethile bephantsi kolawulo lwegunya lopolitiko olunye .
+HYP: Iqela labantu abahluka-hlukileyo ngokwenkcubeko , ngokwenkolo , ngokwentlalo nangokobuhlanga abahlala kummandla othile phantsi kolawulo lwegunya elinye lopolitiko .
+
+EN: He says we're fine single as we respect one another , but once married I'll stop respecting him and start claiming I have rights , and start seeing other men .
+REF: Ithi silunge ngoku singatshatanga kuba ndiyamhlonipha kanti sisakuba sitshatile ndiza kuqala ndithi ndinamalungelo ndize ndithandane namany ' amadoda .
+HYP: Uthi asitshatanga xa sihloniphana , kodwa xa nditshatile ndiyayeka ukuhloniphana ndize ndiqalise ukuthi ndinamalungelo , ndize ndidibane namanye amadoda . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+EN: A permanent political institution comprising a juristic person , population , territory , government and internationally recognised sovereignty .
+REF: umbutho osisigxina wezopolitiko oquka umntu ongumlawuli , uluntu , indawo , urhulumente nobungangamsha obaziwa kwihlabathi lonke .
+HYP: Iziko lezopolitiko elisisigxina eliquka umntu ochophela amatyala , amanani , ummandla , urhulumente kunye nolawulo lwehlabathi jikelele .
+
+EN: RISK 1 : Cars are South Africa's biggest killers of children , either as pedestrians or passengers .
+REF: INGOZI 1 : Iimoto zezona zibulala abantwana abaninzi eMzantsi Afrika abahamba ngeenyawo nabakhwele kuzo .
+HYP: INGOZI 1 : Iimoto ngabona babulali baphambili baseMzantsi Afrika , mhlawumbi njengabahambi ngeenyawo okanye abahambi ngeenyawo . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+EN: * Authority
+REF: * I-arhente
+HYP: * IGunyaziwe
+
+EN: Before any decision can be taken regarding methods of weed control , the relevant weeds should be identified and the farmer should know when these weeds will pose a problem .
+REF: Phambi kwaso nasiphi isigqibo malunga neendlela zokutshabalalisa ukhula , kufuneka kuchongwe iintlobo zokhula ezikhoyo kwaye umlimi ufanele ukwazi ukuba ezo ntlobo zokhula ziba yingxaki nini .
+HYP: Phambi kokuba kuthathwe nasiphi isigqibo malunga neendlela zokutshabalalisa ukhula , kufuneka kuchongwe ukhula olufanelekileyo ukuze umlimi azi ukuba olu khula luya kuba yingxaki nini .
+
+EN: Section 19 requires municipalities to :
+REF: Icandelo 19 lifuna oomasipala ukuba :
+HYP: Icandelo 19 lifuna oomasipala :
+
+EN: Make your sleeping environment comfortable and get at least six to eight hours sleep a night .
+REF: Indawo olala kuyo mayikwenze ukhululeke kwaye ulale ubuncinane iiyure ezintandathu ukuya kwezisibhozo .
+HYP: Yenz ' umzimba wakho ukhululeke , ulala iiyure ezintandathu ukuya kwezisibhozo .
+
+EN: Total costs being the sum of all these costs .
+REF: Iindleko ezipheleleyo ziyingqokelela yazo zonke ezi ndleko .
+HYP: Iindleko zizonke zingumyinge wazo zonke ezi ndleko .
+
+EN: Hectolitre mass and especially protein content are influenced by the environment , soil water and fertiliser management during the grain filling period up to maturity .
+REF: Ubunzima behectolitre ngakumbi isiqulatho seprotheyini zifumana ifuthe lemo ezingqongileyo , amanzi asemhlabeni kunye nolawulo lwezichumiso ngethuba lokuhlohleka kweenkozo ukuya ekuvuthweni .
+HYP: Ubunzima be-hectolitre nesiqulatho seprotheyini sichatshazelwa yimo esingqongileyo , amanzi omhlaba nolawulo lwezichumiso ngethuba lokuzala kweenkozo ukuya ekuvuthweni . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+EN: Can I come in ?
+REF: Ndingangena ?
+HYP: Ndingangena ?
+
+EN: For more artworks by these and other South African artists , visit www.saart.co.za.
+REF: Ukuze ufikelele kweminye imisebenzi yobugcisa zala magcisa namanye alapha eMzantsi Afrika , tyelela www.saart.co.za.
+HYP: Ukuze ufumane ezinye iifilim zezi mvumi neziny ' iimvumi zaseMzantsi Afrika , yiya ku-www.saart.co.za.
+
+EN: Courses can vary in length from 1 to 13 days and include topics such as :
+REF: Izifundo zinokwahluka ngobude bamaxesha anokuzithabatha , zisuka kusuku ziye kuma kwishumi elinesithathu leentsuku futhi ziquka imiba :
+HYP: Izifundo zinokwahluka ngobude ukusuka kwiintsuku ezi-1 ukuya kwezili-13 kwaye ziquka nezihloko ezifana nezi :
+
+EN: Table 16 : Overview of IDP linkage activities and tools
+REF: Uluhlu 16 : Isishwankathelo sezinto zonxibelelano ezenziwayo nezixhobo ze-IDP
+HYP: Itheyibhile 16 : Isishwankathelo semisebenzi yonxibelelano ye-IDP nezixhobo zokusebenza
+
+EN: Planting was done using planting hoes .
+REF: Ukutyala kwenziwa ngokusebenzisa amagaba okutyala .
+HYP: Ukutyala kwenziwa ngokusebenzisa iihoes zokutyala .
+
+EN: Even the break up of her relationship with the father of her little girl , whom she had dated for years , did not stop her from changing her attitude about life .
+REF: Nokwahlukana kwakhe noyise womntwana ababeneminyaka emininzi bethandana akuzange kumenze abujonge ngamny ' amehlo ubomi .
+HYP: Nkqu nokuqhawuka kobudlelwana bakhe noyise wentwazana yakhe , owayethandana nayo iminyaka emininzi , akuzange kumthintele ukuguqula isimo sakhe sengqondo ngobomi .
+
+EN: Which market are you targeting ?
+REF: Ujolise kweyiphi imakethe ?
+HYP: Yeyiphi intengiso ojolise kuyo ?
+
+EN: o Incitement , conspiracy or attempt to commit any of the offences listed above .
+REF: Ukuxhokonkxa , ukwenza iyelenqe okanye ukuzama ukwenza nasiphina isenzo esigwenxa kwezi zixelwe ngasentla
+HYP: o Ukuvota , ukuceba okanye ukuzama ukwenza nawaphi amatyala adweliswe ngasentla .
+
+EN: He neither smokes nor drinks .
+REF: Idilesi yakhe ithi : St .
+HYP: Akatshayi yaye akaseli .
+
+EN: That's because these experts agree on two things :
+REF: Kaloku ezi ngcali zavumelana ngezinto ezimbini :
+HYP: Oko kubangelwa kukuba ezi ngcali zivumelana ngezinto ezimbini :
+
+EN: DESIGNED to impress and loaded with powerful multi-media features , the Samsung E250 lets you slide into high style with class !
+REF: I SAMSUNG E250 yenzelwe abantu abathanda izinto ezintle neziphambili kwaye inezinto ezininzi ezenza ubomi bakho bubelula kwicala lonxibelelwano !
+HYP: I-Samsung E250 iyakuvumela ukuba ukhwele istasung yodidi oluphambili , uze ukhwele istasung E250 , uze uyifake kwistayile esinoluhlu oluphezulu ! . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+EN: Now hours spent in the Inter gym have helped him slim down a little .
+REF: Ngoku ukujima kakhulu kwiInter kumncedile kwawunciphisa umzimba wakhe .
+HYP: Ngoku uchithe iiyure eziliqela ejimini yaye oko kwamnceda ukuba anciphe kancinane .
+

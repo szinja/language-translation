@@ -1,0 +1,9 @@
+wandb/
+en-xh-model/pytorch_model.bin
+*.pt
+*.zip
+en-xh-model/checkpoint-*/
+*.safetensors
+*.pt
+en-xh-model/checkpoint-*/model.safetensors
+en-xh-model/checkpoint-*/optimizer.pt
