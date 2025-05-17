@@ -55,7 +55,11 @@ class CustomWandbLogger(TrainerCallback):
         })
 
 def main(args):
-    wandb.init(project="en-xh-translation")
+    wandb.init(
+        project="en-xh-translation",
+        name=f"run-lr-{args.learning_rate}-ep-{args.epochs}",
+        config=vars(args)
+    )
 
     data = load_data(args.en_file, args.xh_file)
     train, test = train_test_split(data, test_size=0.2, random_state=42)
