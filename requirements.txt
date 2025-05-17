@@ -4,3 +4,4 @@ sentencepiece
 sacrebleu
 wandb
 scikit-learn
+numpy

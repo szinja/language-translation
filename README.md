@@ -25,4 +25,15 @@ python inference.py
 # Enter text when prompted
 ```
 
+### Streamlit Inference App for Demo
+
+A Streamlit interface is provided to demonstrate live English-to-isiXhosa translation. Run using:
+
+```bash
+streamlit run streamlit_app.py
+```
+
+Author: Sisipho Zinja
+[WandB Dashboard](https://wandb.ai/szinja-university-of-rochester/huggingface)
+
 Based on Hugging Face Transformers and Bilingual English-isiXhosa OPUS data by [SADiLaR](https://hdl.handle.net/20.500.12185/525).
