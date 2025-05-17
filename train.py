@@ -66,8 +66,8 @@ def main(args):
     tokenizer = MarianTokenizer.from_pretrained(args.model_name)
     model = MarianMTModel.from_pretrained(args.model_name)
 
-    tokenized_train = train_ds.map(lambda x: preprocess(x['translation'], tokenizer), batched=True)
-    tokenized_val = val_ds.map(lambda x: preprocess(x['translation'], tokenizer), batched=True)
+    tokenized_train = train_ds.map(lambda x: preprocess(x, tokenizer), batched=True)
+    tokenized_val = val_ds.map(lambda x: preprocess(x, tokenizer), batched=True)
 
 
     # BLEU metric function
