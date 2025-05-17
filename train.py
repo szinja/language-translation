@@ -134,7 +134,7 @@ if __name__ == "__main__":
     parser.add_argument("--en_file", type=str, default="english.txt")
     parser.add_argument("--xh_file", type=str, default="xhosa.txt")
     parser.add_argument("--model_name", type=str, default="Helsinki-NLP/opus-mt-en-xh")
-    parser.add_argument("--output_dir", type=str, default="./en-xh-model")
+    parser.add_argument("--output_dir", type=str, default="/content/en-xh-model")
     parser.add_argument("--epochs", type=int, default=3)
     parser.add_argument("--learning_rate", type=float, default=2e-5)
     args = parser.parse_args()
