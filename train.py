@@ -58,6 +58,7 @@ def main(args):
     wandb.init(
         project="en-xh-translation",
         name=f"run-lr-{args.learning_rate}-ep-{args.epochs}",
+        group="dropout-tuning", # {longer-training, custom-tokenizer, everything else is baseline}
         config=vars(args)
     )
 
