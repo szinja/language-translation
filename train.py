@@ -94,22 +94,6 @@ def main(args):
         bleu_result = bleu.compute(predictions=decoded_preds, references=references)
         return {"bleu": bleu_result["score"]}
 
-    # training_args = Seq2SeqTrainingArguments(
-    #     output_dir=args.output_dir,
-    #     eval_strategy="epoch",
-    #     learning_rate=args.learning_rate,
-    #     logging_strategy="steps",
-    #     logging_steps=500, 
-    #     save_total_limit=2,
-    #     predict_with_generate=True,
-    #     num_train_epochs=args.epochs,
-    #     per_device_train_batch_size=8,
-    #     per_device_eval_batch_size=8,
-    #     report_to="wandb",
-    #     logging_dir="./logs",
-    #     fp16=True,
-    # )
-
     training_args = Seq2SeqTrainingArguments(
         output_dir=args.output_dir,
         learning_rate=1e-5, # experimenting with 3e-5
@@ -158,6 +142,15 @@ if __name__ == "__main__":
     parser.add_argument("--output_dir", type=str, default="/content/en-xh-model")
     parser.add_argument("--epochs", type=int, default=3)
     parser.add_argument("--learning_rate", type=float, default=2e-5)
+    parser.add_argument("--batch_size", type=int, default=16)
+    parser.add_argument("--fp16", action="store_true")
+    parser.add_argument("--lr_scheduler_type", type=str, default="linear")
+    parser.add_argument("--warmup_ratio", type=float, default=0.1)
+    parser.add_argument("--save_strategy", type=str, default="epoch")
+    parser.add_argument("--eval_strategy", type=str, default="epoch")
+    parser.add_argument("--metric_for_best_model", type=str, default="bleu")
+    parser.add_argument("--greater_is_better", action="store_true")
+    parser.add_argument("--load_best_model_at_end", action="store_true")
     args = parser.parse_args()
 
     main(args)
