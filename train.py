@@ -3,7 +3,7 @@ from datasets import Dataset
 from transformers import (
     MarianTokenizer, MarianMTModel,
     Seq2SeqTrainer, Seq2SeqTrainingArguments,
-    DataCollatorForSeq2Seq, TrainerCallback
+    DataCollatorForSeq2Seq, TrainerCallback, EarlyStoppingCallback
 )
 from sklearn.model_selection import train_test_split
 import wandb
@@ -94,20 +94,40 @@ def main(args):
         bleu_result = bleu.compute(predictions=decoded_preds, references=references)
         return {"bleu": bleu_result["score"]}
 
+    # training_args = Seq2SeqTrainingArguments(
+    #     output_dir=args.output_dir,
+    #     eval_strategy="epoch",
+    #     learning_rate=args.learning_rate,
+    #     logging_strategy="steps",
+    #     logging_steps=500, 
+    #     save_total_limit=2,
+    #     predict_with_generate=True,
+    #     num_train_epochs=args.epochs,
+    #     per_device_train_batch_size=8,
+    #     per_device_eval_batch_size=8,
+    #     report_to="wandb",
+    #     logging_dir="./logs",
+    #     fp16=True,
+    # )
+
     training_args = Seq2SeqTrainingArguments(
         output_dir=args.output_dir,
-        eval_strategy="epoch",
-        learning_rate=args.learning_rate,
-        logging_strategy="steps",
-        logging_steps=500, 
-        save_total_limit=2,
-        predict_with_generate=True,
-        num_train_epochs=args.epochs,
-        per_device_train_batch_size=8,
-        per_device_eval_batch_size=8,
+        learning_rate=1e-5, # experimenting with 3e-5
+        per_device_train_batch_size=16,
+        per_device_eval_batch_size=16,
+        num_train_epochs=10, # increase with early stopping
+        weight_decay=0.01,
+        lr_scheduler_type='cosine',
+        warmup_ratio=0.1,
         report_to="wandb",
         logging_dir="./logs",
-        fp16=True,
+        logging_strategy="epoch",
+        eval_strategy="epoch",
+        save_strategy="epoch",
+        load_best_model_at_end=True,
+        metric_for_best_model="bleu",
+        greater_is_better=True,
+        fp16=True
     )
 
     data_collator = DataCollatorForSeq2Seq(tokenizer, model=model)
@@ -119,7 +139,8 @@ def main(args):
         eval_dataset=tokenized_val,
         tokenizer=tokenizer,
         data_collator=data_collator,
-        compute_metrics=compute_metrics
+        compute_metrics=compute_metrics,
+        callbacks=[EarlyStoppingCallback(early_stopping_patience=3)]
     )
 
     # Adding my custom logging 
