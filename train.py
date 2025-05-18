@@ -10,6 +10,7 @@ import wandb
 import numpy as np
 import time
 import evaluate
+import os
 
 # Loading dataset
 def load_data(en_path, xh_path):
@@ -58,7 +59,7 @@ def main(args):
     wandb.init(
         project="en-xh-translation",
         name=f"run-lr-{args.learning_rate}-ep-{args.epochs}",
-        group="dropout-tuning", # {longer-training, custom-tokenizer, everything else is baseline}
+        group="longer-training", # {longer-training, custom-tokenizer, everything else is baseline}
         config=vars(args)
     )
 
@@ -117,6 +118,7 @@ def main(args):
 
     data_collator = DataCollatorForSeq2Seq(tokenizer, model=model)
 
+    os.environ["WANDB_DIR"] = "/content/wandb"
     trainer = Seq2SeqTrainer(
         model=model,
         args=training_args,
