@@ -96,22 +96,23 @@ def main(args):
 
     training_args = Seq2SeqTrainingArguments(
         output_dir=args.output_dir,
-        learning_rate=1e-5, # experimenting with 3e-5
-        per_device_train_batch_size=16,
-        per_device_eval_batch_size=16,
-        num_train_epochs=10, # increase with early stopping
+        learning_rate=args.learning_rate,
+        per_device_train_batch_size=args.batch_size,
+        per_device_eval_batch_size=args.batch_size,
+        num_train_epochs=args.epochs,
         weight_decay=0.01,
-        lr_scheduler_type='cosine',
-        warmup_ratio=0.1,
+        lr_scheduler_type=args.lr_scheduler_type,
+        warmup_ratio=args.warmup_ratio,
         report_to="wandb",
         logging_dir="./logs",
         logging_strategy="epoch",
-        eval_strategy="epoch",
-        save_strategy="epoch",
-        load_best_model_at_end=True,
-        metric_for_best_model="bleu",
-        greater_is_better=True,
-        fp16=True
+        eval_strategy=args.eval_strategy,
+        save_strategy=args.save_strategy,
+        load_best_model_at_end=args.load_best_model_at_end,
+        metric_for_best_model=args.metric_for_best_model,
+        greater_is_better=args.greater_is_better,
+        predict_with_generate=True,
+        fp16=args.fp16
     )
 
     data_collator = DataCollatorForSeq2Seq(tokenizer, model=model)
