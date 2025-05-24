@@ -10,7 +10,6 @@ import wandb
 import numpy as np
 import re
 import time
-import evaluate
 import os
 
 # Loading dataset
