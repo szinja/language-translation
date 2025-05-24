@@ -25,20 +25,22 @@ def to_dataset(pairs):
     return Dataset.from_dict({"en": en, "xh": xh})
 
 def preprocess(examples, tokenizer):
-    # Tokenize the input text
+    # Tokenize the input (source) text
     model_inputs = tokenizer(
-        examples["en"], truncation=True, padding="max_length", max_length=128
+        examples["en"],
+        truncation=True,
+        padding="max_length",
+        max_length=128
     )
 
-    # Tokenize the target text using `text_target`
-    with tokenizer:
-        labels = tokenizer(
-            text_target=examples["xh"],
-            truncation=True,
-            padding="max_length",
-            max_length=128
-        )
-
+    # Tokenize the target text using the modern `text_target` argument
+    labels = tokenizer(
+        text_target=examples["xh"],
+        truncation=True,
+        padding="max_length",
+        max_length=128
+    )
+    
     model_inputs["labels"] = labels["input_ids"]
     return model_inputs
 
