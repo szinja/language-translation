@@ -52,7 +52,7 @@ class CustomWandbLogger(TrainerCallback):
     def on_epoch_end(self, args, state, control, **kwargs):
         wandb.log({
             "epoch": state.epoch,
-            "bleu": state.log_history[-1].get("eval_bleu")  # if present
+            "bleu": state.log_history[-1]["eval_bleu"] if state.log_history and "eval_bleu" in state.log_history[-1] else None
         })
 
 def main(args):
@@ -125,7 +125,6 @@ def main(args):
         args=training_args,
         train_dataset=tokenized_train,
         eval_dataset=tokenized_val,
-        tokenizer=tokenizer,
         data_collator=data_collator,
         compute_metrics=compute_metrics,
         callbacks=[EarlyStoppingCallback(early_stopping_patience=3)]
