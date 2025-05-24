@@ -8,6 +8,7 @@ from transformers import (
 from sklearn.model_selection import train_test_split
 import wandb
 import numpy as np
+import re
 import time
 import evaluate
 import os
@@ -25,9 +26,20 @@ def to_dataset(pairs):
     return Dataset.from_dict({"en": en, "xh": xh})
 
 def preprocess(examples, tokenizer):
-    model_inputs = tokenizer(examples["en"], truncation=True, padding="max_length", max_length=128)
-    with tokenizer.as_target_tokenizer():
-        labels = tokenizer(examples["xh"], truncation=True, padding="max_length", max_length=128)
+    # Tokenize the input text
+    model_inputs = tokenizer(
+        examples["en"], truncation=True, padding="max_length", max_length=128
+    )
+
+    # Tokenize the target text using `text_target`
+    with tokenizer:
+        labels = tokenizer(
+            text_target=examples["xh"],
+            truncation=True,
+            padding="max_length",
+            max_length=128
+        )
+
     model_inputs["labels"] = labels["input_ids"]
     return model_inputs
 
@@ -77,21 +89,24 @@ def main(args):
     tokenized_val = val_ds.map(lambda x: preprocess(x, tokenizer), batched=True)
 
     # BLEU metric function
-    bleu = evaluate.load("sacrebleu")
     def compute_metrics(eval_preds):
+        import evaluate
+        bleu = evaluate.load("sacrebleu")
         preds, labels = eval_preds
-        decoded_preds = tokenizer.batch_decode(preds, skip_special_tokens=True)
-        decoded_preds = [pred.strip() for pred in decoded_preds]
 
-        # Decode -100 labels replacing with pad_token_id
-        labels = np.where(labels != -100, tokenizer.pad_token_id, labels)
+        # Decode predictions and normalize whitespace
+        decoded_preds = tokenizer.batch_decode(preds, skip_special_tokens=True)
+        decoded_preds = [re.sub(r"\s+", " ", pred).strip() for pred in decoded_preds]
+
+        # Replace -100 in labels with pad_token_id
+        labels = np.where(labels == -100, tokenizer.pad_token_id, labels)
         decoded_labels = tokenizer.batch_decode(labels, skip_special_tokens=True)
-        decoded_labels = [label.strip() for label in decoded_labels]
-        
-        # Format references as required by sacrebleu 'List[List[str]]'
+        decoded_labels = [re.sub(r"\s+", " ", label).strip() for label in decoded_labels]
+
+        # Format as required by sacrebleu
         references = [[label] for label in decoded_labels]
 
-        # Calculate BLEU score
+        # Compute BLEU
         bleu_result = bleu.compute(predictions=decoded_preds, references=references)
         return {"bleu": bleu_result["score"]}
 
